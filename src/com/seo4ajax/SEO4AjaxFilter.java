@@ -17,7 +17,7 @@ import com.seo4ajax.tools.IOUtils;
 
 public class SEO4AjaxFilter implements Filter {
 
-	private final static String SITE_TOKEN_PARAM = "siteToken";
+	private static final String SITE_TOKEN_PARAM = "siteToken";
 
 	private static final String COMPLIANT_BOT_PARAM = "compliantBot";
 
@@ -29,9 +29,9 @@ public class SEO4AjaxFilter implements Filter {
 
 	private static final int PROXY_CONNECT_TIMEOUT = 30 * 1000;
 
-	private final static String USER_AGENT_HEADER = "User-Agent";
+	private static final String USER_AGENT_HEADER = "User-Agent";
 
-	private final static String ESCAPED_FRAGMENT_QUERY_PARAM = "_escaped_fragment_=";
+	private static final String ESCAPED_FRAGMENT_QUERY_PARAM = "_escaped_fragment_=";
 
 	private static String siteToken;
 
