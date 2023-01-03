@@ -57,7 +57,7 @@ public class SEO4AjaxFilter implements Filter {
 
 	private static String siteToken;
 
-	private static String regexpBots = ".*(bot|spider|pinterest|crawler|archiver|flipboardproxy|mediapartners|facebookexternalhit|quora).*";
+	private static String regexpBots = ".*(bot|lighthouse|spider|pinterest|crawler|archiver|flipboardproxy|mediapartners|facebookexternalhit|quora).*";
 
 	private static String urlApi = "https://api.seo4ajax.com/";
 
